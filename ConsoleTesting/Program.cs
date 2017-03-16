@@ -11,7 +11,7 @@ namespace ConsoleTesting
             TestingTask2();
             TestingTask3();
 
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
 
         private static void TestingTask1()
