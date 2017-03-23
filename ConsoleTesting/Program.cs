@@ -85,6 +85,11 @@ namespace ConsoleTesting
                 new int[4] {0, 15, 0, 30},
                 new int[4] {15, -15, 0, 4},
                 new int[4] {15, int.MaxValue, 3, 5},
+                new int[4] {int.MaxValue, int.MaxValue, 3, 5},
+                new int[4] {15, 15, 1, 3 },
+                new int[4] {15, 15, 1, 4},
+                new int[4] {15, -15, 1, 4 },
+                new int[4] {-8, -15, 1, 4 }
             };
             
             foreach (int[] parameters in TestParameters)

@@ -115,7 +115,7 @@ namespace WorkingWithTypesAndMethods
 
         private static bool IsBordersOK(int i, int j)
         {
-            return (i <= j && i < 32 && j < 32);
+            return (i <= j && i < 31 && j < 31 && i > -1 && j > -1);
         }
 
         private static bool IsStringsHasBannedSymbols(string str1, string str2)
